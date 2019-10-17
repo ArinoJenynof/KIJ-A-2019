@@ -204,5 +204,6 @@ def main():
     
 #    jarak hamming / beda bit total
     print('beda biner',hamming(p,plainText))
-    
-main()
+
+if __name__=='__main__':    
+        main()
