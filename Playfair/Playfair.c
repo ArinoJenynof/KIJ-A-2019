@@ -64,6 +64,12 @@ int main()
 	return 0;
 }
 
+/**
+ * Process the key so that it doesn't contain 'J'
+ *
+ * @param key[] the key to be processed
+ */
+
 void process_key(char key[])
 {
 	unsigned j = 0;
